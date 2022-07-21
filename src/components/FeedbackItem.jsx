@@ -2,15 +2,16 @@ import React from 'react'
 import { useState } from 'react'
 import Card from './shared/Card'
 import PropTypes from 'prop-types'
+import { FaTimes } from 'react-icons/fa'
 
-function FeedbackItem({item}) {
-
-    const [rating, setRating] = useState(7)
-    const [text, setText] = useState('This is text example')
+function FeedbackItem({item, handleDelete}) {
 
     return (
         <Card >
             <div className="num-display">{item.rating}</div>
+            <button onClick={() => handleDelete(item.id)} className="close">
+                <FaTimes color='purple'></FaTimes>
+            </button>
             <div className="text-display">{item.text}</div>
         </Card>
     )
