@@ -2,13 +2,15 @@ import React from 'react'
 import Card from './shared/Card'
 import Button from './shared/Button'
 import { useState } from 'react'
-import { FaCommentsDollar } from 'react-icons/fa'
+import RatingSelect from './RatingSelect'
 
 function FeedbackForm() {
 
     const [text, setText] = useState('')
     const [btnDisabled, setBtnDisabled] = useState(true)
     const [message, setMessage] = useState('')
+    const [rating, setRating] = useState(4)
+
     const handleTextChange = (e) => {
         if (text === '') {
             setMessage(null)
@@ -29,6 +31,7 @@ function FeedbackForm() {
     <Card>
       <form>
         <h2>How would you rate your service with us ?</h2>
+        <RatingSelect select={(rating) => setRating(rating)}></RatingSelect>
         <div className='input-group'>
             <input type="text" onChange={handleTextChange} value={text} placeholder='Write a review' />
             <Button type='submit' isDisable={btnDisabled}>Send</Button>
