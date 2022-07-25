@@ -16,7 +16,7 @@ function Header( {text, bgColor, textColor} ) {
 }
 
 Header.defaultProps= {
-  text: 'Welcome',
+  text: 'CHÚC MỪNG SINH NHẬT MỸ LINH - 18/09/2022',
   bgColor: 'rgba(0,0,0,0.4)',
   textColor: '#ff6a95'
 }
