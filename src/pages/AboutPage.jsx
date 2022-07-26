@@ -8,7 +8,6 @@ function AboutPage() {
     <Card>
       <div className="about">
         <h1>About this project</h1>
-        {/* <p>This is a project created by Nguyen Vo Tuan Nhan to celebrate My Linh's birthday 18/09/2022</p> */}
         <p>Đây là năm đầu tiên sinh tui được chúc mừng sinh nhật bà,</p>
         <p>Tui mong sinh nhật bà nhiều năm sau nữa..., tui vẫn được ở bên cạnh bà nha.</p>
         <p>Chúc những điều tốt đẹp nhất luôn đến với bà</p>
