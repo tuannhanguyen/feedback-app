@@ -1,6 +1,6 @@
 import React from 'react'
 import CardMain from './shared/CardMain'
-import happy from '../images/hasher-happy-sticker.gif'
+import happy from '../images/hasher-happy-sticker.png'
 import iloveu from '../images/download.png'
 
 function FeedbackForm() {

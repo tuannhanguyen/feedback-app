@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa72ae7b.css",
+    "main.js": "/static/js/main.e13d4511.js",
+    "static/media/hasher-happy-sticker.gif": "/static/media/hasher-happy-sticker.4d87e2ea2cab9e12ed7e.gif",
+    "static/media/spinner.gif": "/static/media/spinner.a1a996746e5e48352c81.gif",
+    "index.html": "/index.html",
+    "main.fa72ae7b.css.map": "/static/css/main.fa72ae7b.css.map",
+    "main.e13d4511.js.map": "/static/js/main.e13d4511.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa72ae7b.css",
+    "static/js/main.e13d4511.js"
+  ]
+}
