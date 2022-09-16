@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.fa72ae7b.css",
-    "main.js": "/static/js/main.c50460d9.js",
+    "main.js": "/static/js/main.3aeabe68.js",
     "static/media/hasher-happy-sticker.png": "/static/media/hasher-happy-sticker.4d87e2ea2cab9e12ed7e.png",
     "static/media/spinner.gif": "/static/media/spinner.a1a996746e5e48352c81.gif",
     "index.html": "/index.html",
     "main.fa72ae7b.css.map": "/static/css/main.fa72ae7b.css.map",
-    "main.c50460d9.js.map": "/static/js/main.c50460d9.js.map"
+    "main.3aeabe68.js.map": "/static/js/main.3aeabe68.js.map"
   },
   "entrypoints": [
     "static/css/main.fa72ae7b.css",
-    "static/js/main.c50460d9.js"
+    "static/js/main.3aeabe68.js"
   ]
 }
