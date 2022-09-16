@@ -9,14 +9,14 @@ function Header( {text, bgColor, textColor} ) {
   return (
     <header style={headerStyles} >
         <div className='container'>
-            <h2>{text}</h2>
+            <h3>{text}</h3>
         </div>
     </header>
   )
 }
 
 Header.defaultProps= {
-  text: 'CHÚC MỪNG SINH NHẬT MỸ LINH - 18/09/2022',
+  text: 'Happy Birthday My Linh',
   bgColor: 'rgba(0,0,0,0.4)',
   textColor: '#ff6a95'
 }

@@ -1,32 +1,33 @@
-import React from 'react'
-import { useState } from 'react'
-import Card from './shared/Card'
-import PropTypes from 'prop-types'
-import { FaTimes, FaEdit } from 'react-icons/fa'
-import {useContext} from 'react'
-import FeedbackContext from '../context/FeedbackContext'
+// import React from 'react'
+// import Card from './shared/Card'
 
-function FeedbackItem({item}) {
+// function FeedbackItem() {
 
-    const {deleteFeedback} = useContext(FeedbackContext)
-    const {editFeedback} = useContext(FeedbackContext)
+//     return (
+//         <>
+//         <Card >
+//             Chúc mừng sinh nhật bà nhé. Chúc bà sang tuổi mới đạt được những điều bà muốn nề.
+//             Bớt quạu với tui lại nề.
+//         </Card>
+//         <Card >
+//            <p>Bà là động lực lớn nhất của tui để tui cố gắng đó Linh à.</p>
+//            <p>Vẫn biết sẽ có những khó khăn phía trước, nhưng vì bà mà tui luôn cố gắng từng ngày.</p>
+//            <p>Tui trân trọng từng ngày có bà &#10084;&#10084;&#10084;</p>
+//         </Card>
+//         <Card >
+//             <p>Đây là năm đầu tiên sinh tui được chúc mừng sinh nhật bà,</p>
+//             <p>Tui mong sinh nhật bà nhiều năm sau nữa..., tui vẫn được ở bên cạnh bà nha.&#129299;	</p>
+//         </Card>
+//         <Card >
+//             <p>Và quan trọng nhất là... đừng bao giờ "nghỉ chơi" với tui đáy ngăn &#129299;</p>
+//             <p>Thương bà nhiều &#128536;</p>
+//             <p><b>There is only you in my heart.</b></p>
+//             <p><b>I love you so much.</b></p>
+//         </Card>
+        
+//         </>
+        
+//     )
+// }
 
-    return (
-        <Card >
-            <div className="num-display">{item.rating}</div>
-            <button onClick={() => deleteFeedback(item.id)} className="close">
-                <FaTimes color='purple'></FaTimes>
-            </button>
-            <button onClick={() => editFeedback(item)}  className="edit">
-                <FaEdit color='purple'></FaEdit>
-            </button >
-            <div className="text-display">{item.text}</div>
-        </Card>
-    )
-}
-
-FeedbackItem.propTypes = {
-    item: PropTypes.object.isRequired
-}
-
-export default FeedbackItem
+// export default FeedbackItem

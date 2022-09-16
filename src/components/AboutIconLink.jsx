@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 function AboutIconLink() {
   return (
-    <div className='about-link'>
+    <div className='about-link' style={{margin: 30}}>
       <Link to="/about">
-      <FaQuestion size={30}></FaQuestion>
+      About this project
       </Link>
     </div>
   )

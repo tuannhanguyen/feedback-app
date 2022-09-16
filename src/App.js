@@ -24,7 +24,6 @@ function App() {
               element={
                 <>
                   <FeedbackForm />
-                  <FeedbackStats />
                   <FeedbackList />
                 </>
               }

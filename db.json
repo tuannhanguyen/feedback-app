@@ -1,54 +1,9 @@
 {
   "feedback": [
     {
-      "id": 2,
-      "text": "This item 2",
-      "rating": 2
-    },
-    {
-      "id": 3,
-      "text": "This item 3",
-      "rating": 3
-    },
-    {
       "text": "this item is 4",
       "rating": 3,
       "id": 4
-    },
-    {
-      "text": "this is item 5",
-      "rating": 4,
-      "id": 5
-    },
-    {
-      "text": "this is item 6",
-      "rating": 3,
-      "id": 6
-    },
-    {
-      "text": "this is item 7",
-      "rating": 4,
-      "id": 7
-    },
-    {
-      "text": "this is item test",
-      "rating": 3,
-      "id": 8
-    },
-    {
-      "text": "111111111111111111111",
-      "rating": 4,
-      "id": 9
-    },
-    {
-      "text": "this is new item",
-      "rating": 4,
-      "id": 11
-    },
-    {
-      "text": "this is new item updated nnn",
-      "rating": 3,
-      "id": 12
     }
   ]
 }
