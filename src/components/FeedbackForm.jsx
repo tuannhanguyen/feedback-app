@@ -12,8 +12,8 @@ function FeedbackForm() {
         <h2>CHÚC MỪNG SINH NHẬT</h2>
         <h2>"Cô bạn thân" MỸ LINH</h2>
         <h2>18.09.2022</h2>
-        <img src={happy}/>
         <img src={iloveu}  />
+        <img src={happy}/>
       </form>
     </CardMain>
 
