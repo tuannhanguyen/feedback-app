@@ -5,6 +5,7 @@ import { useContext } from "react";
 import FeedbackContext from "../context/FeedbackContext";
 import Spinner from './shared/Spinner'
 import Card from "./shared/Card";
+import iloveu from '../images/download.png'
 
 function FeedbackList() {
   return ( <div className="feedback-list">
@@ -26,8 +27,9 @@ function FeedbackList() {
         <Card >
             <p>Và quan trọng nhất là... đừng bao giờ "nghỉ chơi" với tui đáy ngăn &#129299;</p>
             <p>Thương bà nhiều &#128536;</p>
-            <p><b>There is only you in my heart.</b></p>
-            <p><b>I love you so much.</b></p>
+        </Card>
+        <Card>
+            <img src={iloveu}  />
         </Card>
         
         </>
