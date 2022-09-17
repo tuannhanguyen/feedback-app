@@ -27,10 +27,10 @@ function FeedbackList() {
         <Card >
             <p>Và quan trọng nhất là... đừng bao giờ "nghỉ chơi" với tui đáy ngăn &#129299;</p>
             <p>Thương bà nhiều &#128536;</p>
+            <p><b>There is only you in my heart.</b></p>
+            <p><b>I love you so much.</b></p>
         </Card>
-        <Card>
-            <img src={iloveu}  />
-        </Card>
+        
         
         </>
   </AnimatePresence>
