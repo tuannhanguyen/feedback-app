@@ -13,7 +13,7 @@ function FeedbackList() {
   <>
         <Card >
             Chúc mừng sinh nhật bà nhé. Chúc bà sang tuổi mới đạt được những điều bà muốn nề.
-            Bớt quạu với tui lại nề.
+            Có quạu thì đỡ với quạu tui lại nề. 
         </Card>
         <Card >
            <p>Bà là động lực lớn nhất của tui để tui cố gắng đó Linh à.</p>
